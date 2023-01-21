@@ -1,0 +1,315 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Niko's SS", HidePremium = false, IntroEnabled = true,IntroText = "Niko's SS", SaveConfig = true, ConfigFolder = "OrionTest"})
+
+
+--Main
+local MainTab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+MainTab:AddButton({
+	Name = "Vereus Non-Fe",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/ZgdhFk5n" ))()
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Lazium",
+	Callback = function()
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/CheapeeWastaken/Lazium/main/TheMain")()
+  	end    
+})
+
+
+MainTab:AddButton({
+	Name = "Backdoor.Exe",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/v8/src/main.lua"))();
+  	end    
+})
+
+
+MainTab:AddButton({
+	Name = "MoonV2",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/Gae7YC84"))();
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Nullware HubV3",
+	Callback = function()
+        loadstring(game:HttpGet("https://gist.githubusercontent.com/M6HqVBcddw2qaN4s/2d722888a388017c18028cd434c43a25/raw/dcccf1027fe4b90780e47767aaf584389c9d7771/EULma3fU90PUOKUn?identifier"))();
+  	end    
+})
+
+
+--Player
+local PlayerTab = Window:MakeTab({
+	Name = "Player",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+PlayerTab:AddSlider({
+	Name = "WalkSpeed",
+	Min = 16,
+	Max = 1000,
+	Default = 5,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Speed%",
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+	end    
+})
+
+PlayerTab:AddSlider({
+	Name = "JumpPower",
+	Min = 50,
+	Max = 400,
+	Default = 5,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Jump%",
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+	end    
+})
+
+PlayerTab:AddButton({
+	Name = "R6",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/hGzRN1Tc"))();
+  	end    
+})
+
+PlayerTab:AddButton({
+	Name = "Anti-Fling",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/tDfh34eK"))();
+  	end    
+})
+
+PlayerTab:AddButton({
+	Name = "BackFlip",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/aGjYRz57"))();
+  	end    
+})
+
+PlayerTab:AddButton({
+	Name = "Teleport-Tool",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/pTuhFZVL"))();
+  	end    
+})
+
+--Hubs
+local HubsTab = Window:MakeTab({
+	Name = "Hubs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+HubsTab:AddButton({
+	Name = "Dex V2",
+	Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/riYe9WrG'))()
+  	end    
+})
+
+
+HubsTab:AddButton({
+	Name = "Dex V5",
+	Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/dyyll/Dex-V5-leak/main/Dex%20V5.lua'),true))();
+  	end    
+})
+
+
+HubsTab:AddButton({
+	Name = "Sussy hub",
+	Callback = function()
+        loadstring(game:HttpGet(('https://gist.githubusercontent.com/Nilrogram/8b0c8bd710be142f383c71f79279752c/raw/e4fb01a7de7cd498bb53270d2ad191dfab268a88/FE%2520SussyHub'),true))();
+  	end    
+})
+
+HubsTab:AddButton({
+	Name = "Dino Hub",
+	Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/8gn3LTFB'),true))();
+  	end    
+})
+
+HubsTab:AddButton({
+	Name = "Turtle Spy",
+	Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/zzerexx/scripts/main/TurtleSpy.lua'),true))();
+  	end    
+})
+
+
+HubsTab:AddButton({
+	Name = "Scan(Bannable)",
+	Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/1Pg0xW6J'),true))();
+  	end    
+})
+
+
+HubsTab:AddButton({
+	Name = "Moon Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/LwQkm563"))()
+  	end    
+})
+
+HubsTab:AddButton({
+	Name = "Pendulum Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))();
+  	end    
+})
+
+HubsTab:AddButton({
+	Name = "Hat Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/KxEub6eZ"))();
+  	end    
+})
+
+HubsTab:AddButton({
+	Name = "UTG V4",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukezz/UTG-V4/main/Script.lua"))();
+  	end    
+})
+
+--Other
+local OtherTab = Window:MakeTab({
+	Name = "Other",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+OtherTab:AddButton({
+	Name = "R15 Fighter",
+	Callback = function()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/OmarXploits/Free-Scripts/main/R15-Fighter"),true))()
+  	end    
+})
+
+OtherTab:AddButton({
+	Name = "Spectrum Glticher(R6)",
+	Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/GeneralScriptz/spectrum-glitcher/main/Spectrum%20glitcher')))()
+  	end    
+})
+
+OtherTab:AddButton({
+	Name = "Gale Fighter(R6)",
+	Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/5uy7xWe4')))()
+  	end    
+})
+
+OtherTab:AddButton({
+	Name = "Xester(R6)",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/RPwyPvEi"))()
+  	end    
+})
+
+OtherTab:AddButton({
+	Name = "Ender(R6)",
+	Callback = function()
+        loadstring(game:HttpGet(('https://github.com/PhoenixAceVFX/Roblox-Scripts/blob/master/Ender.lua')))()
+  	end    
+})
+
+--Hats
+local HatsTab = Window:MakeTab({
+	Name = "Hats",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+HatsTab:AddButton({
+	Name = "Amoung Us(R6)",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/S1xAA1Uz"))()
+  	end    
+})
+
+HatsTab:AddButton({
+	Name = "Little People(R6)",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/S1xAA1Uz"))()
+  	end    
+})
+
+
+--Admin
+local AdminTab = Window:MakeTab({
+	Name = "Admin",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+AdminTab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+
+
+AdminTab:AddButton({
+	Name = "Reviz admin",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/9dsrirD5"))();
+  	end    
+})
+
+
+AdminTab:AddButton({
+	Name = "Fates admin",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+  	end    
+})
+
+AdminTab:AddButton({
+	Name = "ShatterVast admin",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptHubDiscord/Shattervest_FE/main/Shattervast%20FE%20admin%20(1).txt"))()
+  	end    
+})
+
+
+AdminTab:AddButton({
+	Name = "CMD-X admim",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+  	end    
+})
+
+
+
+--Credits
+local CreditsTab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+CreditsTab:AddLabel("This Gui was made by VoldSlim")
+CreditsTab:AddLabel("The R6 in Player was Created by Nextbot_Ambush")
+CreditsTab:AddLabel("Not feeling to say the rest im lazy lol")
+CreditsTab:AddLabel("Created By VoldSlim(Design+Coding)")
